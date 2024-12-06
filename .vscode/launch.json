@@ -11,7 +11,7 @@
       "cwd": ".",
       "program": "build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
@@ -22,3 +22,4 @@
     }
   ]
 }
+
