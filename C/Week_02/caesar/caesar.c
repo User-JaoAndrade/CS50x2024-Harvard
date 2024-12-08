@@ -32,6 +32,7 @@ int main(){
     printf("ciphertext: %s", sentence);
 }
 
+// codigo enviado para o cs50 usando argumentos de terminal (zZzzZ)
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include <string.h>
