@@ -5,6 +5,9 @@
   k = key
 
 */
+
+// Codigo sem usar argumentos de terminal
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -32,7 +35,8 @@ int main(){
     printf("ciphertext: %s", sentence);
 }
 
-// codigo enviado para o cs50 usando argumentos de terminal (zZzzZ)
+// codigo usando argumentos de terminal (o exercicio original de harvard) (zZzzZ)
+
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include <string.h>
@@ -40,22 +44,19 @@ int main(){
 
 // int main(int argc, char *argv[]) {
 //     // Verifica se exatamente um argumento foi passado (a chave)
+//     int key = 0;
 //     if (argc != 2) {
 //         printf("Usage: ./caesar key\n");
 //         return 1;
 //     }
 
-//     // Converte a chave de string para inteiro e verifica se é válida
-//     char *endptr;
-//     int key = strtol(argv[1], &endptr, 10);
+//     for(int i = 0; argv[1][i] != '\0'; i+=1){
+//         if(!isdigit(argv[1][i])){
+//             printf("Usage: ./caesar key\n");
+//             return 1;
+//         }
+//     } key = atoi(argv[1]);
 
-//     // Se a chave não for um número válido
-//     if (*endptr != '\0' || key <= 0) {
-//         printf("Usage: ./caesar key\n");
-//         return 1;
-//     }
-
-//     // Solicita o texto a ser criptografado
 //     char sentence[100];
 //     printf("plaintext: ");
 //     fgets(sentence, 100, stdin);
@@ -76,3 +77,4 @@ int main(){
 
 //     return 0;
 // }
+
