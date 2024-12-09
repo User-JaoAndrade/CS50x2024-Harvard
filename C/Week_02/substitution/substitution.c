@@ -1,5 +1,5 @@
 /*
-    enunciado:
+    enunciado: https://cs50.harvard.edu/x/2024/psets/2/substitution/
 
     argv[27] = {NQXPOMAFTRHLZGECYJIUWSKDVB} nqxpomaftrhlzgecyjiuwskdvb
     sentence = {ABCD}
