@@ -8,10 +8,10 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/usern/OneDrive/Documentos/programação/cs50/CS50x2024-Harvard/C/Week_03/plurality",
+      "program": "c:/Users/usern/OneDrive/Documentos/programação/cs50/CS50x2024-Harvard/C/Week_03/plurality/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "",
+      "miDebuggerPath": "gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
@@ -22,4 +22,3 @@
     }
   ]
 }
-
